@@ -4,7 +4,7 @@
   <img src="https://komarev.com/ghpvc/?username=ridanaz&label=Profile%20views&color=CA0AB3&style=flat" alt="ridanaz" /> 
 </p>
 
-# Bayt al-Hikma: Database Connectivity
+# Secure Data Encryption
 
 ## 1. Run these Commands:
 
