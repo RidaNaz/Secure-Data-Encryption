@@ -4,7 +4,7 @@
   <img src="https://komarev.com/ghpvc/?username=ridanaz&label=Profile%20views&color=CA0AB3&style=flat" alt="ridanaz" /> 
 </p>
 
-# Secure Data Encryption
+# 🔐 Secure Data Encryption System with Streamlit
 
 ## 1. Run these Commands:
 
@@ -30,6 +30,15 @@ streamlit run app.py
 # or
 uv run streamlit run app.py
 ```
+
+## 🛡️ Security Features
+
+- **Fernet Encryption**: AES-128 in CBC mode with PKCS7 padding
+- **Key Derivation**: PBKDF2-HMAC-SHA256 with 100,000 iterations
+- **Password Security**: Unique salt per password (16-byte random)
+- **Brute Force Protection**: 3-attempt limit with 5-minute lockout
+- **In-Memory Security**: Master password reset capability
+- **Data Persistence**: Secure JSON storage with encrypted contents
 
 
 ## 🔗 Links
